@@ -1,4 +1,4 @@
-# frio-litoral
+# Frio Litoral
 
 ## Project setup
 ```
