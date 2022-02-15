@@ -1,0 +1,44 @@
+@import "../variables.scss";
+.home_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+  background: url("https://firebasestorage.googleapis.com/v0/b/friolitoral-ff848.appspot.com/o/home-bg.svg?alt=media&token=f51e3919-8fa9-4b92-b48b-1ced622585ae");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  h1 {
+    color: $yellow;
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 1.1;
+    margin-bottom: 1.5em;
+    span {
+      color: $white;
+    }
+  }
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    li {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      h2 {
+        text-align: center;
+        line-height: 1.1;
+        font-size: 20px;
+        font-weight: 300;
+        color: white;
+        justify-self: flex-end;
+      }
+    }
+  }
+}
